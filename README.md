@@ -1,5 +1,5 @@
 CS1103 Database Project
-University Course Enrollment System
+University Database Management System
 
 This repository contains:
 - Project proposal
