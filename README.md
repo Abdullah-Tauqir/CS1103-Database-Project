@@ -7,3 +7,5 @@ This repository contains:
 - SQL schema and DDL statements
 - Java source code
 - Final report
+
+By: Abdullah Tauqir
