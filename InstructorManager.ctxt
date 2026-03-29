@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=InstructorManager
+comment0.text=\r\n\ Manages\ all\ instructor-related\ database\ operations\r\n
+comment1.params=connection
+comment1.target=InstructorManager(java.sql.Connection)
+comment1.text=\r\n\ Constructor\r\n\ @param\ connection\ the\ database\ connection\ to\ use\r\n
+comment2.params=scanner
+comment2.target=void\ manageInstructors(java.util.Scanner)
+comment2.text=\r\n\ Display\ menu\ for\ instructor\ management\ and\ handle\ user\ choices\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment3.params=scanner
+comment3.target=void\ insertInstructor(java.util.Scanner)
+comment3.text=\r\n\ Insert\ a\ new\ instructor\ into\ the\ database\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment4.params=
+comment4.target=void\ viewAllInstructors()
+comment4.text=\r\n\ View\ all\ instructors\ in\ the\ database\r\n
+comment5.params=scanner
+comment5.target=void\ deleteInstructor(java.util.Scanner)
+comment5.text=\r\n\ Delete\ an\ instructor\ from\ the\ database\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment6.params=
+comment6.target=void\ calculateInstructorTax()
+comment6.text=\r\n\ Calculate\ and\ display\ income\ tax\ (10%)\ for\ each\ instructor\r\n
+numComments=7

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CompactFormatter
+comment1.params=resultSet\ filePath
+comment1.target=void\ exportToCompactFile(java.sql.ResultSet,\ java.lang.String)
+comment1.text=\r\n\ Exports\ a\ ResultSet\ to\ a\ compact\ tabular\ file\ format\r\n\ \r\n\ @param\ resultSet\ The\ SQL\ query\ results\ to\ format\r\n\ @param\ filePath\ The\ path\ where\ the\ output\ file\ should\ be\ saved\r\n\ @throws\ SQLException\ If\ there\ is\ an\ error\ processing\ the\ ResultSet\r\n\ @throws\ IOException\ If\ there\ is\ an\ error\ writing\ to\ the\ file\r\n
+comment2.params=resultSet
+comment2.target=java.lang.String\ getCompactFormat(java.sql.ResultSet)
+comment2.text=\r\n\ Returns\ a\ compact\ formatted\ string\ from\ a\ ResultSet\r\n\ (useful\ for\ displaying\ in\ the\ console)\r\n\ \r\n\ @param\ resultSet\ The\ SQL\ query\ results\ to\ format\r\n\ @return\ A\ string\ with\ the\ formatted\ results\r\n\ @throws\ SQLException\ If\ there\ is\ an\ error\ processing\ the\ ResultSet\r\n
+numComments=3

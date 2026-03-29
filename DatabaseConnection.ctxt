@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=DatabaseConnection
+comment0.text=\r\n\ Handles\ database\ connection\ and\ basic\ initialization\ operations\r\n
+comment1.params=
+comment1.target=boolean\ connect()
+comment1.text=\r\n\ Establishes\ a\ connection\ to\ the\ database\r\n\ @return\ true\ if\ connection\ is\ successful,\ false\ otherwise\r\n\ @throws\ SQLException\ if\ connection\ fails\r\n
+comment2.params=
+comment2.target=void\ disconnect()
+comment2.text=\r\n\ Closes\ the\ database\ connection\r\n
+comment3.params=
+comment3.target=java.sql.Connection\ getConnection()
+comment3.text=\r\n\ Gets\ the\ current\ database\ connection\r\n\ @return\ the\ connection\ object\r\n
+comment4.params=
+comment4.target=boolean\ createSchema()
+comment4.text=\r\n\ Create\ the\ database\ schema\ using\ SQL\ file\r\n\ @return\ true\ if\ schema\ creation\ is\ successful,\ false\ otherwise\r\n
+comment5.params=
+comment5.target=boolean\ populateData()
+comment5.text=\r\n\ Populate\ the\ database\ with\ sample\ data\r\n\ @return\ true\ if\ data\ population\ is\ successful,\ false\ otherwise\r\n
+comment6.params=filename
+comment6.target=void\ executeScriptFile(java.lang.String)
+comment6.text=\r\n\ Execute\ SQL\ statements\ from\ a\ file\r\n\ @param\ filename\ the\ file\ containing\ SQL\ statements\r\n\ @throws\ SQLException\ if\ execution\ fails\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\r\n\ Main\ method\ to\ test\ database\ connection\r\n\ @param\ args\ command\ line\ arguments\r\n
+comment8.params=filename
+comment8.target=java.io.File\ findFile(java.lang.String)
+numComments=9
