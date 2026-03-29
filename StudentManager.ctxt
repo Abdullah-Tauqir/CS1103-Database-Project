@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=StudentManager
+comment0.text=\r\n\ Manages\ all\ student-related\ database\ operations\r\n
+comment1.params=connection
+comment1.target=StudentManager(java.sql.Connection)
+comment1.text=\r\n\ Constructor\r\n\ @param\ connection\ the\ database\ connection\ to\ use\r\n
+comment2.params=scanner
+comment2.target=void\ manageStudents(java.util.Scanner)
+comment2.text=\r\n\ Display\ menu\ for\ student\ management\ and\ handle\ user\ choices\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment3.params=scanner
+comment3.target=void\ insertStudent(java.util.Scanner)
+comment3.text=\r\n\ Insert\ a\ new\ student\ into\ the\ database\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment4.params=
+comment4.target=void\ viewAllStudents()
+comment4.text=\r\n\ View\ all\ students\ in\ the\ database\r\n
+comment5.params=scanner
+comment5.target=void\ deleteStudent(java.util.Scanner)
+comment5.text=\r\n\ Delete\ a\ student\ from\ the\ database\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment6.params=scanner
+comment6.target=void\ changeStudentDepartment(java.util.Scanner)
+comment6.text=\r\n\ Change\ a\ student's\ department\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+numComments=7

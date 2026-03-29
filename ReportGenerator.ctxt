@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ReportGenerator
+comment0.text=\r\n\ Generates\ database\ reports\ for\ the\ university\ database\r\n
+comment1.params=connection
+comment1.target=ReportGenerator(java.sql.Connection)
+comment1.text=\r\n\ Constructor\r\n\ @param\ connection\ the\ database\ connection\ to\ use\r\n
+comment2.params=
+comment2.target=void\ findHighestGradeStudents()
+comment2.text=\r\n\ Find\ and\ display\ students\ with\ the\ highest\ grade\ for\ each\ semester\r\n
+comment3.params=
+comment3.target=void\ viewStudentsByDepartment()
+comment3.text=\r\n\ View\ students\ by\ department\r\n
+comment4.params=
+comment4.target=void\ viewCourseEnrollments()
+comment4.text=\r\n\ View\ course\ enrollment\ statistics\r\n
+numComments=5

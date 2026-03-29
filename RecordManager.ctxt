@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RecordManager
+comment0.text=\r\n\ Manages\ basic\ record\ operations\ for\ university\ database\ entities\r\n
+comment1.params=connection
+comment1.target=RecordManager(java.sql.Connection)
+comment1.text=\r\n\ Constructor\r\n\ @param\ connection\ the\ database\ connection\ to\ use\r\n
+comment2.params=scanner
+comment2.target=void\ insertRecordsMenu(java.util.Scanner)
+comment2.text=\r\n\ Display\ menu\ for\ inserting\ records\ and\ handle\ user\ choices\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment3.params=scanner
+comment3.target=void\ insertDepartment(java.util.Scanner)
+comment3.text=\r\n\ Insert\ a\ new\ department\ into\ the\ database\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment4.params=scanner
+comment4.target=void\ insertCourse(java.util.Scanner)
+comment4.text=\r\n\ Insert\ a\ new\ course\ into\ the\ database\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+comment5.params=scanner
+comment5.target=void\ insertSection(java.util.Scanner)
+comment5.text=\r\n\ Insert\ a\ new\ section\ into\ the\ database\r\n\ @param\ scanner\ Scanner\ object\ for\ user\ input\r\n
+numComments=6
